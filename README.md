@@ -132,13 +132,14 @@ This would involve the following steps:
 
 #### TASK 5.3: Train and Evaluate
 
-Fine-tune the bioGPT model you saved in your hugging face git using this custom ADR dataset you just created. Also show its evaluation results on the ADR test set using `seqeval` as before.
-![image](https://github.com/travislatchman/Name-Entity-Recognition-using-BioGPT/assets/32372013/621510d0-e45a-49a1-889d-598b3e482e49)
+Fine-tune the bioGPT model you saved in your hugging face git using this custom ADR dataset you just created. Also show its evaluation results on the ADR test set using `seqeval` as before.  
 
-Precision: 0.312210200927357
-Recall: 0.10401647785787847
-F1-score: 0.1560448049439938
-Accuracy: 0.9313810222499146
+![image](https://github.com/travislatchman/Name-Entity-Recognition-using-BioGPT/assets/32372013/621510d0-e45a-49a1-889d-598b3e482e49)  
+
+Precision: 0.312210200927357  
+Recall: 0.10401647785787847  
+F1-score: 0.1560448049439938  
+Accuracy: 0.9313810222499146  
 
 
 ## Use BioGPT as feature extractor and construct your own BioGPT for token classification, and fine-tune it for NER
